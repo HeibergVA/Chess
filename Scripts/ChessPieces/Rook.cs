@@ -18,7 +18,7 @@ public class Rook : ChessPiece // Laver en Rook klasse baseret på chesspiece kla
                 if(board[currentX, i].team !=team)      //Hvis den brik der står på feltet ikke er på dit eget hold
                     r.Add(new Vector2Int(currentX, i));   //Tilføjer dette felt til listen over lovlige træk
 
-                break;  //Gør ud af loopet
+                break;  //Går ud af loopet
             }
                 
         }
